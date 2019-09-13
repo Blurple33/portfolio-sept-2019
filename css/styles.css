@@ -1,0 +1,30 @@
+/* colors */
+
+.mygrey{
+    background-color: #d3d3d3
+}
+
+.mylightblue{
+    background-color: #698198
+}
+
+.mypurple{
+    background-color: #4d2d73
+}
+
+.mydarkblue{
+    background-color: #052645
+}
+
+.myblack{
+    background-color: #000e1b
+}
+
+.height-100px{
+    height: 100px;
+}
+
+.fullscreen{
+    width: 100%;
+    height: 100%;
+}
