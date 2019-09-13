@@ -1,3 +1,17 @@
+/* fonts */
+.futura-outline{
+    font-family: "FuturaBQ";
+
+}
+
+.game-font{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.thin-font{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
 /* colors */
 .white-text{
     background-color: #fff;
@@ -7,7 +21,7 @@
     background-color: #d3d3d3
 }
 
-.mylightblue{
+.mygreyblue{
     background-color: #698198
 }
 
@@ -27,10 +41,24 @@
     background-color: #ffffff;
 }
 
+.mylightblue{
+    background-color: #337ab7
+}
+
+/* navbar */
+nav{
+    position: sticky;
+    top: 0;
+}
+
+/* home */
 .fullscreen{
     width: 100%;
     height: 100vh;
-    z-index: -3;
+    z-index: -10;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
 }
 
 .midscreen{
@@ -39,6 +67,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     height: 40vh;
+    z-index: auto;
 }
 .height-test{
     margin-top: 25%;
@@ -47,9 +76,24 @@
 
 li{
     width: 20vh;
-    background-color: red;
+    text-shadow: 2px 2px black;
 }
 
 .going-down{
     margin-top: 60vh;
+}
+
+h1{
+    z-index: -2;
+    color: #337ab7;
+    font-size: 800%;
+    margin-left: 70%
+}
+
+/* work */
+
+.work{
+    width: 100%;
+    height: 100vh;
+
 }
