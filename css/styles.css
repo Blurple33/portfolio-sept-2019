@@ -1,4 +1,7 @@
 /* colors */
+.white-text{
+    background-color: #fff;
+}
 
 .mygrey{
     background-color: #d3d3d3
@@ -20,11 +23,33 @@
     background-color: #000e1b
 }
 
-.height-100px{
-    height: 100px;
+.mywhite{
+    background-color: #ffffff;
 }
 
 .fullscreen{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    z-index: -3;
+}
+
+.midscreen{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+}
+.height-test{
+    margin-top: 25%;
+    height: 40vh;
+}
+
+li{
+    width: 20vh;
+    background-color: red;
+}
+
+.going-down{
+    margin-top: 60vh;
 }
